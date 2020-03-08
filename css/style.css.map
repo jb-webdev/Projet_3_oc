@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/main.scss","sass/utils/_variables.scss"],"names":[],"mappings":"AAKA;EACI,kBCNG","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["sass/base/_box-sizing.scss","sass/layaout/header.scss","sass/utils/_variables.scss","sass/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACHJ;EACI,kBCDc;;ADEV;EACI,OCFE;;;ACMd;EACI;EACA;EACA","file":"style.css"}
