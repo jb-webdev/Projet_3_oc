@@ -1,0 +1,19 @@
+{
+  "name": "projet_3_oc",
+  "version": "1.0.0",
+  "description": "site \"OHMYFOOD\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch css/sass/main.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jb-webdev/Projet_3_oc.git"
+  },
+  "author": "jb-devweb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jb-webdev/Projet_3_oc/issues"
+  },
+  "homepage": "https://github.com/jb-webdev/Projet_3_oc#readme"
+}
