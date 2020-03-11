@@ -1,13 +1,10 @@
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./base/box-sizing";
-@import "./layaout/header";
-@import "./components/button";
 @import "./base/fonts";
-
-body {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
+@import "./base/fonts-size";
+@import "./layaout/body";
+@import "./layaout/header";
+@import "./layaout/menu";
+@import "./layaout/footer";
+@import "./components/button";
 
