@@ -3,7 +3,7 @@ html {
 }
 
 header h1 {
-  font-size: 3;
+  font-size: 4em;
 }
 
 MENU {
@@ -25,15 +25,18 @@ header {
   height: 6em;
   margin: 0;
   padding: 0;
-  background-color: blue;
-  display: flex;
+  background-color: #579c87;
+  display: inline-flex;
+  align-items: center;
 }
 
 h1 {
-  color: yellowgreen;
+  color: #fdcb46;
   width: 100%;
   text-align: center;
   vertical-align: center;
+  font-size: 4em;
+  margin: 0;
 }
 
 section {
@@ -44,6 +47,35 @@ section {
 .main {
   display: flex;
   flex-wrap: wrap;
+}
+
+footer {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #579c87;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
+
+.mentions {
+  color: #fdcb46;
+  font-size: 1.5em;
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+
+.contact {
+  color: #fdcb46;
+  font-size: 1.5em;
+  width: 100%;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  text-align: end;
 }
 
 .menu {
@@ -62,35 +94,14 @@ section {
   margin-right: auto;
   margin-top: 6.25%;
   margin-bottom: 7rem;
+  background-color: #579c87;
+  border-radius: 10rem;
+  border: none;
 }
-
-footer {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: blue;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  bottom: 0;
-}
-
-.mentions {
-  color: yellowgreen;
-  font-size: 1.5em;
-  width: 100%;
-  padding-top: 1rem;
-  padding-left: 3rem;
-}
-
-.contact {
-  color: yellowgreen;
-  font-size: 1.5em;
-  width: 100%;
-  height: 3rem;
-  padding-top: 1rem;
-  padding-right: 3rem;
-  text-align: end;
+.Prochainement span {
+  color: #fdcb46;
+  margin: 2em 4em 2em 4em;
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

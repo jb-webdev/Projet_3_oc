@@ -1,4 +1,29 @@
-
+.menu {
+   
+    height: 400px;
+    width: 300px;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    margin-top: 6.25%;
+}
+.Prochainement {
+    display: inline-flex;
+    align-items: center;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25%;
+    margin-bottom: 7rem;
+    background-color: $color-principal;
+    
+    border-radius: 10rem;
+    border: none;
+        & span {
+            color: $color-titre;
+            margin: 2em 4em 2em 4em;
+            font-size: 2em;
+        }
+}
 
 
 

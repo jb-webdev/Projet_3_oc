@@ -3,23 +3,19 @@ footer {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: blue;
+    background-color: $color-principal;
     display: flex;
     justify-content: space-between;
     position: fixed;
     bottom: 0;
 }
 .mentions {
-    color: yellowgreen;
-    font-size: 1.5em;
-    width: 100%;
+    @include btn-footer;
     padding-top: 1rem;
     padding-left: 3rem;
 }
 .contact {
-    color: yellowgreen;
-    font-size: 1.5em;
-    width: 100%;
+    @include btn-footer;
     height: 3rem;
     padding-top: 1rem;
     padding-right: 3rem;

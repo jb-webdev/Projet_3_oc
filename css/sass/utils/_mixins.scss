@@ -34,4 +34,8 @@
 }
 
 
-
+@mixin btn-footer {
+    color: $color-titre;
+    font-size: 1.5em;
+    width: 100%;
+}
