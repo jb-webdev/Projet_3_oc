@@ -1,0 +1,11 @@
+.cgu-article {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+    & h2 {
+        text-align: center;
+    }
+    & h3 {
+        text-align: start;
+    }
+}

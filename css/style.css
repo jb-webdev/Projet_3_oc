@@ -132,4 +132,16 @@ article h3 {
   text-align: center;
 }
 
+.cgu-article {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 5em;
+}
+.cgu-article h2 {
+  text-align: center;
+}
+.cgu-article h3 {
+  text-align: start;
+}
+
 /*# sourceMappingURL=style.css.map */
