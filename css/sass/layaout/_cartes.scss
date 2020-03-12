@@ -11,13 +11,16 @@
     padding-right: 10%;
     padding-bottom: 2rem;
 }
-.carte h2, h3, p {
+.carte h2{
     align-self: center;
 }
 article div{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
+}
+article h3 {
+    text-align: center;
 }
 
 
