@@ -1,0 +1,25 @@
+.carte {
+    background-color: $color-menu-1;
+    color: $color-fonts-menu-1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+}
+.carte h2, h3, p {
+    align-self: center;
+}
+article div{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+
+
+

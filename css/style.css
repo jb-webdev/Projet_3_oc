@@ -95,13 +95,37 @@ footer {
   margin-top: 6.25%;
   margin-bottom: 7rem;
   background-color: #579c87;
-  border-radius: 10rem;
+  border-radius: 0.8em;
   border: none;
 }
 .Prochainement span {
   color: #fdcb46;
   margin: 2em 4em 2em 4em;
   font-size: 2em;
+}
+
+.carte {
+  background-color: #fcdfdb;
+  color: #3c1218;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2rem;
+}
+
+.carte h2, h3, p {
+  align-self: center;
+}
+
+article div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
