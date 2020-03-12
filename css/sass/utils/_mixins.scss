@@ -34,24 +34,4 @@
 }
 
 
-@mixin btn-footer {
-        text-decoration: none;/* enlevement soulignement*/
-        text-align: center;
-        color: $color-titre;
-        font-family: $police-titre;  /*changer la police*/
-        font-size: $font-size-btn; /*taille element*/
-        background-color: $color-principal; /*couleur de fond du boutton*/
-        border: none; /*pour enlever la bordure du bouton*/
-        border-radius: 10rem;
-        padding: 1rem 0.5rem;
-        /* Passer d'un état A à un état B */
-        cursor: pointer;    /*remplace la fleche de la souris par le doit*/
-        outline: none; /* enleve le petit contour qui apparait au passage de la souris*/
-        transform: scale(1);
-        transition: transform 400ms;
-        /*combine 2 propriété en une trnsaform et le durée */
-        &:hover {
-            transform: scale(1.2);
-          }
-      }
-      
+
