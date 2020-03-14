@@ -1,23 +1,36 @@
 footer {
-    
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: $color-principal;
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     bottom: 0;
+    background-color: $color-principal;
 }
-.mentions {
-    @include btn-footer;
-    padding-top: 1rem;
-    padding-left: 3rem;
+.nav {
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;    
 }
-.contact {
-    @include btn-footer;
-    height: 3rem;
-    padding-top: 1rem;
-    padding-right: 3rem;
-    text-align: end;   
+.nav-ul {
+    display: flex;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    &__link {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        & a {
+            text-decoration: none;
+            color: $color-titre;
+            font-size: 1.4em;
+        }
+    }
 }
+.nav-ul__link--left {
+    margin-left: 0;
+}
+.nav-ul__link--mail {
+    margin-right: 0;
+}
+

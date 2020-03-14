@@ -1,27 +1,20 @@
-.carte {
+.section-carte {
+    @include carte;
     background-color: $color-menu-1;
     color: $color-fonts-menu-1;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 2rem;
-}
-.carte h2{
-    align-self: center;
-}
-article div{
-    display: flex;
+    &__enseigne {
+        align-self: center;
+    }
+    &__h3 {
+        text-align: center;
+    }
+    &__plats {
+        display: flex;
     flex-direction: row; 
     justify-content: space-between;
+    }
 }
-article h3 {
-    text-align: center;
-}
+
 
 
 

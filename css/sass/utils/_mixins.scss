@@ -1,39 +1,8 @@
-@mixin body {
-    min-width: 500px;
-    max-width: 700px;
-    min-height: 45px;
-    max-height: 50px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@mixin header {
-    background-color: $color-principal;
+@mixin carte {
     display: flex;
-        & h1 {
-            color: $color-titre;
-            text-align: center;
-            min-width: 100%;
-        }
-}
-
-@mixin menu {
-    width: 200px;
-    height: 300px;
-    margin: 10px 10px 10px 10px;
-    border: solid 1px black;
-}
-
-@mixin footer {
-    color: $color-titre;
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.2s;
-}
-@mixin btn-footer {
-    color: $color-titre;
-    font-size: 1.5em;
-    width: 100%;
+    flex-direction: column;
+    margin: 5% 10% 20% 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2rem;
 }
