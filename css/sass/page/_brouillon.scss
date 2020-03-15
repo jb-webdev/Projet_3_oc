@@ -1,3 +1,8 @@
+$font-size-html: 100%;
+
+$font-size-txt: 1.6em/1em;
+$font-size-btn: 1.5em/1em;
+
 /*fonts-size*/
 html {
     font-size: $font-size-html;
@@ -40,17 +45,7 @@ html {
     padding-right: 10%;
     padding-bottom: 2rem;
 }
-.section__cgu-article {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 5em;
-    & .section__cgu-h2 {
-        text-align: center;
-    }
-    & .section__cgu-h3 {
-        text-align: start;
-    }
-}
+
 .section-carte__enseigne {
     align-self: center;
 }

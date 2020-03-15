@@ -1,5 +1,35 @@
 
+.box-menu {
+    @include box-menu;
+    background-color: $color-menu-1;
+   &__left {
+        @include left;
+    }
+    &__right {
+        @include right;
+    }
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+.btn-prochainement {
+    background-color: $primary;
+    color: $secondary;
+    text-align: center;
+    font-size: 1.4em;
+
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
 
 
-
-    

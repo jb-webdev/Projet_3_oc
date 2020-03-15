@@ -1,20 +1,29 @@
-.section-carte {
-    @include carte;
-    background-color: $color-menu-1;
-    color: $color-fonts-menu-1;
-    &__enseigne {
-        align-self: center;
-    }
-    &__h3 {
-        text-align: center;
-    }
-    &__plats {
-        display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    }
+.carte {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10% 20% 10%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2rem;;
+        
+        &__enseigne {
+            align-self: center;
+        }
+        &__article {
+            flex-direction: column;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+        &__h3 {
+            text-align: center;
+        }
 }
-
+.carte__plats {
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
 
 
