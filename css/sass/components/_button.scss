@@ -1,7 +1,7 @@
 
 .box-menu {
     @include box-menu;
-    background-color: $color-menu-1;
+    /*background-color: $color-menu-1;*/
    &__left {
         @include left;
     }
@@ -19,6 +19,7 @@
 .btn-prochainement {
     background-color: $primary;
     color: $secondary;
+    font-family: $fonts-principal;
     text-align: center;
     font-size: 1.4em;
 

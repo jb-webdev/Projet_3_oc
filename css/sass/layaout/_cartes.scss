@@ -17,13 +17,25 @@
         &__h3 {
             text-align: center;
         }
+        &__one {
+            @include one;
+        }
+        &__two {
+            @include two;
+        }
+        &__three {
+            @include three;
+        }
+        &__four {
+            @include four;
+        }
 }
 .carte__plats {
-    
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
+
 
 
 

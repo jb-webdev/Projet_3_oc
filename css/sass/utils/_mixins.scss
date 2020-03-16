@@ -16,10 +16,31 @@
     width: 300px;
     margin: 5%;
 }
+
 @mixin left {
     margin-left: $margin-box-menu;
 }
 
 @mixin right {
     margin-right: $margin-box-menu;
+}
+@mixin one {
+    background-color: $color-menu-1;
+    color: $color-fonts-menu-1;
+    font-family: $fonts-menu-1;
+}
+@mixin two {
+    background-color: $color-menu-2;
+    color: $color-fonts-menu-2;
+    font-family: $fonts-menu-2; 
+}
+@mixin three {
+    background-color: $color-menu-3;
+    color: $color-fonts-menu-3;
+    font-family: $fonts-menu-3;
+}
+@mixin four {
+    background-color: $color-menu-4;
+    color: $color-fonts-menu-4; 
+    font-family: $fonts-menu-4;
 }
