@@ -11,16 +11,17 @@
 }
 
 .btn {
-    display: flex;
-    flex-direction: row;
-    margin-top: 1em;
+    
+    /*margin-top: 1em;*/
     margin-bottom: 6em;
 }
 .btn-prochainement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     background-color: $primary;
     color: $secondary;
     font-family: $fonts-principal;
-    text-align: center;
     font-size: 1.4em;
 
     justify-content: center;
@@ -31,6 +32,17 @@
     width: 30%;
     height: auto;
     border-radius: 10px;
+}
+.ball {
+    display: inline-flex;
+    background-color: $secondary;
+    width: 0.3em;
+    height: 0.3em;
+    border-radius: 1em *0.5;
+    margin-left: 0.5em;
+}
+.nav-ul__link--left a {
+    @include btn-hover;
 }
 
 
