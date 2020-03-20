@@ -40,7 +40,17 @@
     height: 0.3em;
     border-radius: 1em *0.5;
     margin-left: 0.5em;
+    &__un {
+        animation: slidedown 3000ms infinite 515ms;
+       }
+    &__deux {
+        animation: slidedown 3100ms infinite 475ms;
+       }
+     &__trois {
+        animation: slidedown 3150ms infinite 450ms;
+       }
 }
+
 .nav-ul__link--left a {
     @include btn-hover;
 }

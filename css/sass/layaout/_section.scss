@@ -10,15 +10,15 @@
 .box-menu--two { 
     text-decoration: none;
     font-size: $font-size-box-menu;
-    @include two;
+        @include two;
 }
 .box-menu--three { 
     text-decoration: none;
     font-size: $font-size-box-menu;
-    @include three;  
+        @include three;  
 }
 .box-menu--four { 
     text-decoration: none;
     font-size: $font-size-box-menu;
-    @include four;
+        @include four;
 }

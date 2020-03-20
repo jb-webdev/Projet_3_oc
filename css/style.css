@@ -112,6 +112,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 400px;
   width: 300px;
   margin: 5%;
@@ -155,6 +156,15 @@ footer {
   border-radius: 0.5em;
   margin-left: 0.5em;
 }
+.ball__un {
+  animation: slidedown 3000ms infinite 515ms;
+}
+.ball__deux {
+  animation: slidedown 3100ms infinite 475ms;
+}
+.ball__trois {
+  animation: slidedown 3150ms infinite 450ms;
+}
 
 .nav-ul__link--left a {
   cursor: pointer;
@@ -166,6 +176,17 @@ footer {
   transform: scale(1.15);
 }
 
+@keyframes slidedown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .carte {
   display: flex;
   flex-direction: column;
