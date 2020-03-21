@@ -1,0 +1,42 @@
+.btn {
+    margin-bottom: 6em;
+  }
+  
+  .btn-prochainement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: $primary;
+    color: $secondary;
+    font-family: $fonts-principal;
+    font-size: $font-size-box-menu;
+    
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .ball {
+    display: inline-flex;
+    background-color: $secondary;
+    width: 0.3em;
+    height: 0.3em;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+     &__un {
+      animation: slidedown 3000ms infinite 500ms;
+     }
+     &__deux {
+      animation: slidedown 3250ms infinite 250ms;
+     }
+     &__trois {
+      animation: slidedown 3400ms infinite 100ms;
+     }
+  }
+
+  

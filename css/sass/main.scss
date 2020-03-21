@@ -1,14 +1,15 @@
-@import "./utils/variables-color";
-@import "./utils/variables-margin";
-@import "./utils/variables-fonts";
-@import "./utils/mixins";
-@import "./layaout/body";
-@import "./layaout/header";
-@import "./layaout/section";
-@import "./layaout/footer";
-@import "./components/button";
+@import "./utils/variables-colors";
+@import "./utils/fonts";
+@import "./utils/boxsizing";
+@import "./utils/mixins-carte";
 @import "./utils/keyframes";
-@import "./layaout/cartes";
-@import "./layaout/cgu";
-@import "./utils/mediaQueries";
+@import "./layout/body";
+@import "./layout/header";
+@import "./box-menu/box-mixins";
+@import "./box-menu/box-menu";
+@import "./layout/button";
+@import "./layout/cartes";
+@import "./layout/cgu";
+@import "./layout/footer";
+@import "./utils/responsive";
 
