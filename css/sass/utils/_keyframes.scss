@@ -1,11 +1,8 @@
-@keyframes slidedown {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+/*----------------------------------------------
+        animation bouton prochainement
+----------------------------------------------*/
+@keyframes rebond {
+    0% {transform: translatey(-10px);}
+    
+    100%{transform: translatey(0px);}
   }
