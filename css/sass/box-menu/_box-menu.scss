@@ -35,4 +35,25 @@
     height: 400px;
     width: 300px;
     margin: 5%;
+    -webkit-box-shadow: 0 0 10px 0 #989997;
+            box-shadow: 0 0 10px 0 #989997;
   }
+  
+  .box-menu:hover {
+    animation: zoom .5s forwards;
+  }
+
+@keyframes zoom {
+    from {
+        font-size: $font-size-box-menu;
+        opacity: 1;
+    }
+    to {
+        font-size: $font-size-box-menu * 1.2;
+        opacity: 0.6;
+    }
+}
+   
+
+  
+      

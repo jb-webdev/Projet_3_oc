@@ -93,8 +93,24 @@ header {
   height: 400px;
   width: 300px;
   margin: 5%;
+  -webkit-box-shadow: 0 0 10px 0 #989997;
+  box-shadow: 0 0 10px 0 #989997;
 }
 
+.box-menu:hover {
+  animation: zoom 0.5s forwards;
+}
+
+@keyframes zoom {
+  from {
+    font-size: 1.4em;
+    opacity: 1;
+  }
+  to {
+    font-size: 1.68em;
+    opacity: 0.6;
+  }
+}
 .btn {
   margin-bottom: 6em;
 }
@@ -265,14 +281,35 @@ footer {
 }
 
 /* animations footer */
-.nav-ul__link--left a {
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform 400ms;
-  /* combine transition-propriety et transition-duration*/
+.nav-ul__link a {
+  text-decoration: none;
+  color: #fdcb46;
+  font-size: 1.4em;
 }
-.nav-ul__link--left a:hover {
-  transform: scale(1.15);
+.nav-ul__link a:hover {
+  -webkit-animation: wiggle 75ms infinite;
+  animation: wiggle 75ms infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: translate(2px, 0);
+    transform: translate(2px, 0);
+  }
+  45% {
+    -webkit-transform: translate(-2px, 0) rotate(-2deg);
+    transform: translate(-2px, 0) rotate(-2deg);
+  }
+  55% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translate(2px, 0);
+    transform: translate(2px, 0);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

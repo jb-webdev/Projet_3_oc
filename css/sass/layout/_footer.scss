@@ -40,12 +40,36 @@ footer {
   }
 
   /* animations footer */
-  .nav-ul__link--left a {
-    cursor: pointer;
-    transform: scale(1);
-    transition: transform 400ms;
-    /* combine transition-propriety et transition-duration*/
-    &:hover {
-      transform: scale(1.15);
+
+  .nav-ul__link {
+    & a {
+      text-decoration: none;
+      color: $secondary;
+      font-size: $font-size-box-menu;
+    }
+    & a:hover {
+        -webkit-animation: wiggle 75ms infinite;
+                animation: wiggle 75ms infinite;
+        -webkit-animation-timing-function: linear;
+                animation-timing-function: linear; 
     }
   }
+  
+@keyframes wiggle {
+  0% {
+    -webkit-transform: translate(2px, 0);
+            transform: translate(2px, 0); 
+    }
+  45% {
+    -webkit-transform: translate(-2px, 0) rotate(-2deg);
+            transform: translate(-2px, 0) rotate(-2deg); 
+  }
+  55% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg); 
+  }
+  100% {
+    -webkit-transform: translate(2px, 0);
+            transform: translate(2px, 0); 
+  } 
+}
