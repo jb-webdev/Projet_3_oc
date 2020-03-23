@@ -3,7 +3,7 @@
 ----------------------------------------------*/
 @keyframes rebond {
   0% {
-    transform: translatey(-10px);
+    transform: translatey(-15px);
   }
   100% {
     transform: translatey(0px);
@@ -38,6 +38,11 @@ header {
   text-align: center;
   vertical-align: center;
   font-size: 4em;
+}
+.heading a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 .box {

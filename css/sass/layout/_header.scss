@@ -16,6 +16,11 @@ header {
     text-align: center;
     vertical-align: center;
     font-size: 4em;
+    & a {
+      cursor: pointer;
+      text-decoration: none;
+      color: $secondary;
+    }
   }
 
   
