@@ -1,4 +1,17 @@
 /*----------------------------------------------
+        animation box-shadow Box-Menu
+----------------------------------------------*/
+@keyframes zoom {
+        from {
+            font-size: $font-size-box-menu;
+            opacity: 1;
+        }
+        to {
+            font-size: $font-size-box-menu * 1.2;
+            opacity: 0.6;
+        }
+    }
+/*----------------------------------------------
         animation bouton prochainement
 ----------------------------------------------*/
 @keyframes rebond {
@@ -6,3 +19,25 @@
     
     100%{transform: translatey(0px);}
   }
+
+/*----------------------------------------------
+        Animation Liens Footer
+----------------------------------------------*/
+@keyframes wiggle {
+        0% {
+          /*-webkit-transform: translate(2px, 0);*/
+                  transform: translate(2px, 0); 
+          }
+        45% {
+          /*-webkit-transform: translate(-2px, 0) rotate(-2deg);*/
+                  transform: translate(-2px, 0) rotate(-2deg); 
+        }
+        55% {
+          /*-webkit-transform: rotate(2deg);*/
+                  transform: rotate(2deg); 
+        }
+        100% {
+          /*-webkit-transform: translate(2px, 0);*/
+                  transform: translate(2px, 0); 
+        } 
+        }
