@@ -8,3 +8,10 @@ body {
     padding-top: 0;
     padding-bottom: 0;
   }
+  @media all and (max-width: 800px) {
+    body {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }

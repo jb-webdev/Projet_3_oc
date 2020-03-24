@@ -43,6 +43,28 @@
     animation: zoom .5s forwards;
   }
 
+  @media all and (max-width: 800px) {
+    .box-menu {
+     margin-left: auto;
+     margin-right: auto;
+      }
+ }
+
+ @media all and (max-width: 650px) {
+    .box-menu {
+      margin-left: auto;
+      margin-right: auto;
+      height: 500px;
+      width: 400px;
+      }
+}
+@media all and (max-width: 450px) {
+    .box-menu {
+      height: 400px;
+      max-width: 300px;
+      }
+}
+
 
    
 
