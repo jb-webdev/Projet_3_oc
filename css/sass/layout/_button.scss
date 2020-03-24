@@ -35,7 +35,7 @@
   margin-left: 5px;
   
           animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) infinite;
-  -webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) infinite;
+  /*-webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) infinite;*/
 
 }
 .ball__deux {
@@ -48,8 +48,8 @@
   margin-bottom: 5px;
   margin-left: 5px;
   
-  animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .33s infinite;
-  -webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .33s infinite;
+          animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .33s infinite;
+  /*-webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .33s infinite;*/
 
 }
 .ball__trois {
@@ -62,8 +62,8 @@
   margin-bottom: 5px;
   margin-left: 5px;
   
-  animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .66s infinite;
-  -webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .66s infinite;
+          animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .66s infinite;
+  /*-webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .66s infinite;*/
 
 }
 
