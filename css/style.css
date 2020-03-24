@@ -100,6 +100,10 @@ header {
   flex-wrap: wrap;
 }
 
+.box-menu .fas {
+  color: #f15f62;
+  font-size: 2em;
+}
 .box-menu--one {
   text-decoration: none;
   font-size: 1.4em;
@@ -246,7 +250,9 @@ header {
   margin: 5% 8% 20% 8%;
   padding-left: 1em;
   padding-right: 1em;
-  padding-bottom: 2rem;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  box-shadow: 0 0 10px 0 #989997;
 }
 .carte__enseigne {
   align-self: center;
@@ -278,6 +284,15 @@ header {
   background-color: #eef8ee;
   color: #72bf56;
   font-family: "Courgette", cursive;
+}
+
+.icon {
+  display: inline-block;
+  text-align: center;
+}
+.icon .fas {
+  font-size: 4em;
+  color: #f15f62;
 }
 
 .carte__plats {

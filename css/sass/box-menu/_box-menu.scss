@@ -4,6 +4,10 @@
   }
   
   .box-menu{
+      & .fas {
+        color: $color-note-musique;
+        font-size: 2em;
+      }
       &--one {
         @include box-menu;
         @include one;

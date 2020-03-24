@@ -4,8 +4,10 @@
     margin: 5% 8% 20% 8%;
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 2rem;;
-        
+    padding-bottom: 2em;
+    padding-top: 2em;
+    box-shadow: 0 0 10px 0 $color-shadow-box;
+
         &__enseigne {
             align-self: center;
         }
@@ -29,6 +31,14 @@
         &__four {
             @include four;
         }
+}
+.icon {
+    display: inline-block;
+    text-align: center;
+    & .fas {
+        font-size: 4em;
+        color: $color-note-musique;
+    }
 }
 .carte__plats {
     display: flex;
