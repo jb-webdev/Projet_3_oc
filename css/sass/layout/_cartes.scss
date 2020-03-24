@@ -1,9 +1,9 @@
 .carte {
     display: flex;
     flex-direction: column;
-    margin: 5% 10% 20% 10%;
-    padding-left: 0;
-    padding-right: 0;
+    margin: 5% 8% 20% 8%;
+    padding-left: 1em;
+    padding-right: 1em;
     padding-bottom: 2rem;;
         
         &__enseigne {
@@ -34,4 +34,48 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+$duration: 650ms;
+
+.baseline {
+    &__menu-1 {
+        background: linear-gradient(to top, $color-fonts-menu-1 0%, $color-fonts-menu-1 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__menu-2 {
+        background: linear-gradient(to top, $color-fonts-menu-2 0%, $color-fonts-menu-2 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__menu-3 {
+        background: linear-gradient(to top, $color-fonts-menu-3 0%, $color-fonts-menu-3 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__menu-4 {
+        background: linear-gradient(to top, $color-fonts-menu-4 0%, $color-fonts-menu-4 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
 }

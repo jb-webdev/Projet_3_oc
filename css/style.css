@@ -211,9 +211,9 @@ header {
 .carte {
   display: flex;
   flex-direction: column;
-  margin: 5% 10% 20% 10%;
-  padding-left: 0;
-  padding-right: 0;
+  margin: 5% 8% 20% 8%;
+  padding-left: 1em;
+  padding-right: 1em;
   padding-bottom: 2rem;
 }
 .carte__enseigne {
@@ -252,6 +252,39 @@ header {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.baseline__menu-1 {
+  background: linear-gradient(to top, #3c1218 0%, #3c1218 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-1:hover {
+  background-size: 100% 100%;
+}
+.baseline__menu-2 {
+  background: linear-gradient(to top, #c77412 0%, #c77412 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-2:hover {
+  background-size: 100% 100%;
+}
+.baseline__menu-3 {
+  background: linear-gradient(to top, #0887fb 0%, #0887fb 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-3:hover {
+  background-size: 100% 100%;
+}
+.baseline__menu-4 {
+  background: linear-gradient(to top, #72bf56 0%, #72bf56 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-4:hover {
+  background-size: 100% 100%;
 }
 
 .cgu-article {
