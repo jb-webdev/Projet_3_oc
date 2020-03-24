@@ -193,6 +193,11 @@ header {
   border-radius: 10px;
 }
 
+@media all and (max-width: 630px) {
+  .btn-prochainement {
+    width: 60%;
+  }
+}
 /*---------------------------------
           ANIMATION BALL
 ---------------------------------*/
