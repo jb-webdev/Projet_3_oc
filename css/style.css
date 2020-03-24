@@ -319,6 +319,14 @@ header {
   background-size: 100% 100%;
 }
 
+@media all and (max-width: 750px) {
+  .carte__plats {
+    flex-direction: column;
+  }
+  .carte__plats p {
+    text-align: center;
+  }
+}
 .cgu-article {
   padding-left: 2em;
   padding-right: 2em;
