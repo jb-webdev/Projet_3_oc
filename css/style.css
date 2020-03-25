@@ -100,8 +100,7 @@ header {
   flex-wrap: wrap;
 }
 
-.box-menu .fas {
-  color: #f15f62;
+.box-menu img {
   font-size: 2em;
 }
 .box-menu--one {
@@ -285,14 +284,29 @@ header {
   color: #72bf56;
   font-family: "Courgette", cursive;
 }
-
-.icon {
+.carte #note-primary {
   display: inline-block;
-  text-align: center;
+  align-self: center;
+  height: 60px;
+  width: 60px;
 }
-.icon .fas {
-  font-size: 4em;
-  color: #f15f62;
+
+.carte-bottom {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carte-bottom #note-bottom {
+  align-self: flex-end;
+  height: 25px;
+  width: 25px;
+}
+.carte-bottom .h2__bottom {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.8em;
+  font-size: 1.4em;
 }
 
 .carte__plats {

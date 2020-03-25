@@ -31,13 +31,29 @@
         &__four {
             @include four;
         }
+        & #note-primary {
+            display: inline-block;
+            align-self: center;
+            height: 60px;
+            width: 60px;
+        }
+       
 }
-.icon {
-    display: inline-block;
-    text-align: center;
-    & .fas {
-        font-size: 4em;
-        color: $color-note-musique;
+.carte-bottom {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    & #note-bottom {
+        align-self: flex-end;
+        height: 25px;
+        width: 25px; 
+    }
+    & .h2__bottom {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.8em;
+        font-size: 1.4em;
     }
 }
 .carte__plats {
