@@ -116,6 +116,11 @@ $duration: 650ms;
         flex-direction: column;
         & p {
             text-align: center;
+            margin-top: 0.3em;
+            margin-bottom: 0.3em;
         }
+    }
+    .carte__enseigne {
+        font-size: 1.5em;
     }
   }
