@@ -1,5 +1,7 @@
 /* color principal du site */
 /* color items du site */
+/* couleur note musique
+linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
 /* color shadow for box-menu */
 /*----------------------------------------------
         animation box-shadow Box-Menu
@@ -19,7 +21,7 @@
 ----------------------------------------------*/
 @keyframes rebond {
   0% {
-    transform: translatey(-15px);
+    transform: translatey(-7px);
   }
   100% {
     transform: translatey(0px);
@@ -30,19 +32,19 @@
 ----------------------------------------------*/
 @keyframes wiggle {
   0% {
-    /*-webkit-transform: translate(2px, 0);*/
+    -webkit-transform: translate(2px, 0);
     transform: translate(2px, 0);
   }
   45% {
-    /*-webkit-transform: translate(-2px, 0) rotate(-2deg);*/
+    -webkit-transform: translate(-2px, 0) rotate(-2deg);
     transform: translate(-2px, 0) rotate(-2deg);
   }
   55% {
-    /*-webkit-transform: rotate(2deg);*/
+    -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
   }
   100% {
-    /*-webkit-transform: translate(2px, 0);*/
+    -webkit-transform: translate(2px, 0);
     transform: translate(2px, 0);
   }
 }
@@ -98,28 +100,24 @@ header {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #fcdfdb;
-  color: #3c1218;
   font-family: "Satisfy", cursive;
 }
 .box-menu--two {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #fff5fe;
-  color: #c77412;
   font-family: "Lobster", cursive;
 }
 .box-menu--three {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #f9f9f9;
-  color: #0887fb;
   font-family: "Dancing Script", cursive;
 }
 .box-menu--four {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #eef8ee;
-  color: #72bf56;
   font-family: "Courgette", cursive;
 }
 .box-menu--left {
@@ -130,8 +128,8 @@ header {
 }
 
 .fas {
-  color: #f15f62;
   font-size: 2em;
+  color: #f15f62;
 }
 
 .box-menu {
@@ -148,6 +146,37 @@ header {
 
 .box-menu:hover {
   animation: zoom 0.5s forwards;
+}
+
+.box-menu__enseigne--1 {
+  color: #3d1319;
+}
+.box-menu__menu--1 {
+  color: #3d1319;
+}
+.box-menu__enseigne--2 {
+  background: linear-gradient(to right, #c77412, #a56799, #6e4ccc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.box-menu__menu--2 {
+  color: #c77412;
+}
+.box-menu__enseigne--3 {
+  background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.box-menu__menu--3 {
+  color: #0670f3;
+}
+.box-menu__enseigne--4 {
+  background: linear-gradient(to right, #45993e, #7bc65b, #a2e870, #beff7f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.box-menu__menu--4 {
+  color: #7bc65b;
 }
 
 @media all and (max-width: 800px) {
@@ -209,8 +238,8 @@ header {
   align-self: flex-end;
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: rebond 1.5s cubic-bezier(0, 0, 0.02, 1.02) infinite;
-  /*-webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) infinite;*/
+  animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) infinite;
+  -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) infinite;
 }
 
 .ball__deux {
@@ -222,8 +251,8 @@ header {
   align-self: flex-end;
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: rebond 1.5s cubic-bezier(0, 0, 0.02, 1.02) 0.33s infinite;
-  /*-webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .33s infinite;*/
+  animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.33s infinite;
+  -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.33s infinite;
 }
 
 .ball__trois {
@@ -235,8 +264,8 @@ header {
   align-self: flex-end;
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: rebond 1.5s cubic-bezier(0, 0, 0.02, 1.02) 0.66s infinite;
-  /*-webkit-animation: rebond 1.5s cubic-bezier(0,0,.02,1.02) .66s infinite;*/
+  animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.66s infinite;
+  -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.66s infinite;
 }
 
 .carte {
@@ -251,6 +280,7 @@ header {
 }
 .carte__enseigne {
   align-self: center;
+  font-size: 2em;
 }
 .carte__article {
   flex-direction: column;
@@ -262,23 +292,37 @@ header {
 }
 .carte__one {
   background-color: #fcdfdb;
-  color: #3c1218;
   font-family: "Satisfy", cursive;
 }
 .carte__two {
   background-color: #fff5fe;
-  color: #c77412;
   font-family: "Lobster", cursive;
 }
 .carte__three {
   background-color: #f9f9f9;
-  color: #0887fb;
   font-family: "Dancing Script", cursive;
 }
 .carte__four {
   background-color: #eef8ee;
-  color: #72bf56;
   font-family: "Courgette", cursive;
+}
+
+.carte__enseigne--menu2 {
+  background: linear-gradient(to right, #c77412, #a56799, #6e4ccc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.carte__enseigne--menu3 {
+  background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.carte__enseigne--menu4 {
+  background: linear-gradient(to right, #45993e, #7bc65b, #a2e870, #beff7f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .note-music {
@@ -311,7 +355,7 @@ header {
 }
 
 .baseline__menu-1 {
-  background: linear-gradient(to top, #3c1218 0%, #3c1218 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 650ms;
 }
@@ -327,7 +371,7 @@ header {
   background-size: 100% 100%;
 }
 .baseline__menu-3 {
-  background: linear-gradient(to top, #0887fb 0%, #0887fb 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #262626 0%, #262626 2px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 650ms;
 }
@@ -335,7 +379,7 @@ header {
   background-size: 100% 100%;
 }
 .baseline__menu-4 {
-  background: linear-gradient(to top, #72bf56 0%, #72bf56 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #262626 0%, #262626 2px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 650ms;
 }
@@ -404,9 +448,9 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .nav-ul__link a:hover {
-  /*-webkit-animation: wiggle 75ms infinite;*/
+  -webkit-animation: wiggle 75ms infinite;
   animation: wiggle 75ms infinite;
-  /* -webkit-animation-timing-function: linear;*/
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
 }
 

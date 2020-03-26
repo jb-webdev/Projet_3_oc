@@ -15,7 +15,7 @@
         animation bouton prochainement
 ----------------------------------------------*/
 @keyframes rebond {
-    0% {transform: translatey(-15px);}
+    0% {transform: translatey(-7px);}
     
     100%{transform: translatey(0px);}
   }
@@ -25,19 +25,19 @@
 ----------------------------------------------*/
 @keyframes wiggle {
         0% {
-          /*-webkit-transform: translate(2px, 0);*/
+          -webkit-transform: translate(2px, 0);
                   transform: translate(2px, 0); 
           }
         45% {
-          /*-webkit-transform: translate(-2px, 0) rotate(-2deg);*/
+          -webkit-transform: translate(-2px, 0) rotate(-2deg);
                   transform: translate(-2px, 0) rotate(-2deg); 
         }
         55% {
-          /*-webkit-transform: rotate(2deg);*/
+          -webkit-transform: rotate(2deg);
                   transform: rotate(2deg); 
         }
         100% {
-          /*-webkit-transform: translate(2px, 0);*/
+          -webkit-transform: translate(2px, 0);
                   transform: translate(2px, 0); 
         } 
         }

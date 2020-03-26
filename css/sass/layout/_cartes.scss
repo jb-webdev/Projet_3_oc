@@ -10,6 +10,7 @@
 
         &__enseigne {
             align-self: center;
+            font-size: 2em;
         }
         &__article {
             flex-direction: column;
@@ -31,6 +32,15 @@
         &__four {
             @include four;
         }
+}
+.carte__enseigne--menu2 {
+    @include menu2;
+}
+.carte__enseigne--menu3 {
+    @include menu3;
+}
+.carte__enseigne--menu4 {
+    @include menu4;
 }
 .note-music {
     display: inline-block;

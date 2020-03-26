@@ -34,9 +34,9 @@ footer {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   & a:hover {
-      /*-webkit-animation: wiggle 75ms infinite;*/
+      -webkit-animation: wiggle 75ms infinite;
               animation: wiggle 75ms infinite;
-     /* -webkit-animation-timing-function: linear;*/
+      -webkit-animation-timing-function: linear;
               animation-timing-function: linear; 
   }
 }

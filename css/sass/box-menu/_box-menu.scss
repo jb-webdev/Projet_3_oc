@@ -28,11 +28,9 @@
       }
   }
   .fas {
-      color: $color-note-musique;
-      font-size: 2em;
-    }
-  
-   
+    font-size: 2em;
+    color: $color-note-musique;
+  }
   
   .box-menu {
     display: flex;
@@ -49,6 +47,32 @@
   .box-menu:hover {
     animation: zoom .5s forwards;
   }
+  .box-menu {
+    &__enseigne--1 {
+      color: $color-fonts-menu-1;;
+    }
+    &__menu--1 {
+      color: $color-fonts-menu-1;
+    }
+    &__enseigne--2 {
+      @include menu2;
+    }
+    &__menu--2 {
+      color: $color-fonts-menu-2;
+    }
+    &__enseigne--3 {
+      @include menu3;
+    }
+    &__menu--3 {
+      color: $color-fonts-menu-3-3;
+    }
+    &__enseigne--4 {
+      @include menu4;
+    }
+    &__menu--4 {
+      color: $color-fonts-menu-4-3;
+    }
+  }
 
   @media all and (max-width: 800px) {
     .box-menu {
@@ -64,13 +88,13 @@
       height: 500px;
       width: 400px;
       }
-}
-@media all and (max-width: 450px) {
+  }
+  @media all and (max-width: 450px) {
     .box-menu {
       height: 400px;
       max-width: 300px;
       }
-}
+  }
 
 
    
