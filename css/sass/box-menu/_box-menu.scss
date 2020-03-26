@@ -4,9 +4,6 @@
   }
   
   .box-menu{
-      & img {
-        font-size: 2em;
-      }
       &--one {
         @include box-menu;
         @include one;
@@ -30,6 +27,13 @@
         margin-right: 7.5%;
       }
   }
+  .fas {
+      color: $color-note-musique;
+      font-size: 2em;
+    }
+  
+   
+  
   .box-menu {
     display: flex;
     flex-direction: column;
@@ -38,8 +42,8 @@
     height: 400px;
     width: 300px;
     margin: 5%;
-    /*-webkit-box-shadow: 0 0 10px 0 $color-shadow-box;*/
-              box-shadow: 0 0 10px 0 $color-shadow-box;
+    -webkit-box-shadow: 0 0 10px 0 $color-shadow-box;
+            box-shadow: 0 0 10px 0 $color-shadow-box;
   }
   
   .box-menu:hover {

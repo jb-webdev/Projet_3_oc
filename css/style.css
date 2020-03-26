@@ -1,12 +1,6 @@
-/*------------------------------
-    color principal du site
-------------------------------*/
-/*------------------------------
-    color items du site
-------------------------------*/
-/*------------------------------
-    color shadow for box-menu
-------------------------------*/
+/* color principal du site */
+/* color items du site */
+/* color shadow for box-menu */
 /*----------------------------------------------
         animation box-shadow Box-Menu
 ----------------------------------------------*/
@@ -100,9 +94,6 @@ header {
   flex-wrap: wrap;
 }
 
-.box-menu img {
-  font-size: 2em;
-}
 .box-menu--one {
   text-decoration: none;
   font-size: 1.4em;
@@ -138,6 +129,11 @@ header {
   margin-right: 7.5%;
 }
 
+.fas {
+  color: #f15f62;
+  font-size: 2em;
+}
+
 .box-menu {
   display: flex;
   flex-direction: column;
@@ -146,7 +142,7 @@ header {
   height: 400px;
   width: 300px;
   margin: 5%;
-  /*-webkit-box-shadow: 0 0 10px 0 $color-shadow-box;*/
+  -webkit-box-shadow: 0 0 10px 0 #989997;
   box-shadow: 0 0 10px 0 #989997;
 }
 
@@ -284,11 +280,14 @@ header {
   color: #72bf56;
   font-family: "Courgette", cursive;
 }
-.carte #note-primary {
+
+.note-music {
   display: inline-block;
-  align-self: center;
-  height: 60px;
-  width: 60px;
+  text-align: center;
+}
+
+.fa-music--carte {
+  font-size: 4em;
 }
 
 .carte-bottom {
@@ -296,16 +295,12 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.carte-bottom #note-bottom {
-  align-self: flex-end;
-  height: 25px;
-  width: 25px;
+.carte-bottom .fa-music--bottom {
+  font-size: 0.9em;
+  margin-right: 0.5em;
 }
 .carte-bottom .h2__bottom {
   display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0.8em;
   font-size: 1.4em;
 }
 
