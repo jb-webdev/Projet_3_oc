@@ -106,19 +106,19 @@ header {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #fff5fe;
-  font-family: "Lobster", cursive;
+  font-family: "Baloo 2", cursive;
 }
 .box-menu--three {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #f9f9f9;
-  font-family: "Dancing Script", cursive;
+  font-family: "Poppins", sans-serif;
 }
 .box-menu--four {
   text-decoration: none;
   font-size: 1.4em;
   background-color: #eef8ee;
-  font-family: "Courgette", cursive;
+  font-family: "Oswald", sans-serif;
 }
 .box-menu--left {
   margin-left: 7.5%;
@@ -296,15 +296,15 @@ header {
 }
 .carte__two {
   background-color: #fff5fe;
-  font-family: "Lobster", cursive;
+  font-family: "Baloo 2", cursive;
 }
 .carte__three {
   background-color: #f9f9f9;
-  font-family: "Dancing Script", cursive;
+  font-family: "Poppins", sans-serif;
 }
 .carte__four {
   background-color: #eef8ee;
-  font-family: "Courgette", cursive;
+  font-family: "Oswald", sans-serif;
 }
 
 .carte__enseigne--menu2 {
@@ -362,14 +362,6 @@ header {
 .baseline__menu-1:hover {
   background-size: 100% 100%;
 }
-.baseline__menu-2 {
-  background: linear-gradient(to top, #c77412 0%, #c77412 2px, transparent 3px) no-repeat;
-  background-size: 0% 100%;
-  transition: background-size 650ms;
-}
-.baseline__menu-2:hover {
-  background-size: 100% 100%;
-}
 .baseline__menu-3 {
   background: linear-gradient(to top, #262626 0%, #262626 2px, transparent 3px) no-repeat;
   background-size: 0% 100%;
@@ -385,6 +377,27 @@ header {
 }
 .baseline__menu-4:hover {
   background-size: 100% 100%;
+}
+
+.carte__article--1 {
+  color: #c77412;
+}
+
+.baseline__menu-2 {
+  background: linear-gradient(to top, #c77412 0%, #c77412 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-2:hover {
+  background-size: 100% 100%;
+}
+
+.carte__article--2 {
+  color: #a56799;
+}
+
+.carte__article--3 {
+  color: #6e4ccc;
 }
 
 @media all and (max-width: 750px) {

@@ -80,16 +80,7 @@ $duration: 650ms;
             background-size: 100% 100%;
         }
     }
-
-    &__menu-2 {
-        background: linear-gradient(to top, $color-fonts-menu-2 0%, $color-fonts-menu-2 2px, transparent 3px) no-repeat;
-        background-size: 0% 100%;
-        transition: background-size $duration;
-
-        &:hover {
-            background-size: 100% 100%;
-        }
-    }
+    
 
     &__menu-3 {
         background: linear-gradient(to top, $color-fonts-menu-3 0%, $color-fonts-menu-3 2px, transparent 3px) no-repeat;
@@ -110,6 +101,24 @@ $duration: 650ms;
             background-size: 100% 100%;
         }
     }
+}
+.carte__article--1 {
+    color: $color-fonts-menu-2;
+}
+.baseline__menu-2 {
+    background: linear-gradient(to top, $color-fonts-menu-2 0%, $color-fonts-menu-2 2px, transparent 3px) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size $duration;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+.carte__article--2 {
+    color: $color-fonts-menu-2-2;
+}
+.carte__article--3 {
+    color: $color-fonts-menu-2-3; 
 }
 @media all and (max-width: 750px) {
     .carte__plats {
