@@ -3,6 +3,7 @@
 /* couleur note musique
 linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
 /* color shadow for box-menu */
+/* couleur degrade h2-menu des cartes */
 /*----------------------------------------------
         animation box-shadow Box-Menu
 ----------------------------------------------*/
@@ -48,6 +49,7 @@ linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
     transform: translate(2px, 0);
   }
 }
+/* BODY */
 body {
   width: 800px;
   height: 100%;
@@ -59,6 +61,7 @@ body {
   padding-bottom: 0;
 }
 
+/* le responsive du body */
 @media all and (max-width: 800px) {
   body {
     width: 100%;
@@ -66,6 +69,7 @@ body {
     margin-right: 0;
   }
 }
+/* HEADER */
 header {
   width: 100%;
   height: 6em;
@@ -91,6 +95,7 @@ header {
   color: #fdcb46;
 }
 
+/* box- menu */
 .box {
   display: flex;
   flex-wrap: wrap;
@@ -179,6 +184,7 @@ header {
   color: #7bc65b;
 }
 
+/* le responsive box menu */
 @media all and (max-width: 800px) {
   .box-menu {
     margin-left: auto;
@@ -199,6 +205,7 @@ header {
     max-width: 300px;
   }
 }
+/* button prochainement */
 .btn {
   margin-bottom: 6em;
 }
@@ -221,6 +228,7 @@ header {
   border-radius: 10px;
 }
 
+/* le responsive du button */
 @media all and (max-width: 630px) {
   .btn-prochainement {
     width: 60%;
@@ -268,6 +276,7 @@ header {
   -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.66s infinite;
 }
 
+/* pages cartes-menu*/
 .carte {
   display: flex;
   flex-direction: column;
@@ -307,6 +316,7 @@ header {
   font-family: "Oswald", sans-serif;
 }
 
+/* couleur degrade h2-menu des cartes */
 .carte__enseigne--menu2 {
   background: linear-gradient(to right, #c77412, #a56799, #6e4ccc);
   -webkit-text-fill-color: transparent;
@@ -325,6 +335,7 @@ header {
   -webkit-background-clip: text;
 }
 
+/* les notes de musique  */
 .note-music {
   display: inline-block;
   text-align: center;
@@ -334,6 +345,7 @@ header {
   font-size: 4em;
 }
 
+/* note de musique du bas de page menu carte */
 .carte-bottom {
   display: flex;
   margin-left: auto;
@@ -348,12 +360,39 @@ header {
   font-size: 1.4em;
 }
 
+/* div des plats et des prix */
 .carte__plats {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
 
+.carte__article--1 {
+  color: #c77412;
+}
+.carte__article--2 {
+  color: #a56799;
+}
+.carte__article--3 {
+  color: #6e4ccc;
+}
+
+/* Responsive pages cartes-menu */
+@media all and (max-width: 750px) {
+  .carte__plats {
+    flex-direction: column;
+  }
+  .carte__plats p {
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  .carte__enseigne {
+    font-size: 1.5em;
+  }
+}
+/* animation baseline cartes */
 .baseline__menu-1 {
   background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 3px) no-repeat;
   background-size: 0% 100%;
@@ -379,41 +418,35 @@ header {
   background-size: 100% 100%;
 }
 
-.carte__article--1 {
-  color: #c77412;
-}
-
-.baseline__menu-2 {
+/* baseline du menu 2 */
+.baseline__menu-2--colors-1 {
   background: linear-gradient(to top, #c77412 0%, #c77412 2px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 650ms;
 }
-.baseline__menu-2:hover {
+.baseline__menu-2--colors-1:hover {
   background-size: 100% 100%;
 }
 
-.carte__article--2 {
-  color: #a56799;
+.baseline__menu-2--colors-2 {
+  background: linear-gradient(to top, #a56799 0%, #a56799 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-2--colors-2:hover {
+  background-size: 100% 100%;
 }
 
-.carte__article--3 {
-  color: #6e4ccc;
+.baseline__menu-2--colors-3 {
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 650ms;
+}
+.baseline__menu-2--colors-3:hover {
+  background-size: 100% 100%;
 }
 
-@media all and (max-width: 750px) {
-  .carte__plats {
-    flex-direction: column;
-  }
-  .carte__plats p {
-    text-align: center;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-  }
-
-  .carte__enseigne {
-    font-size: 1.5em;
-  }
-}
+/* C G U */
 .cgu-article {
   padding-left: 2em;
   padding-right: 2em;
@@ -430,6 +463,7 @@ header {
   text-align: start;
 }
 
+/* FOOTER */
 footer {
   width: 800px;
   margin-left: auto;
@@ -481,6 +515,7 @@ footer {
   margin-right: 0;
 }
 
+/* le responsive du footer */
 @media all and (max-width: 800px) {
   footer {
     width: 100%;

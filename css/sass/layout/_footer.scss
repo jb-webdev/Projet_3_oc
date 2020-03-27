@@ -1,3 +1,5 @@
+/* FOOTER */
+
 footer {
     width: 800px;
     margin-left: auto;
@@ -48,6 +50,8 @@ margin-left: 0;
 .nav-ul__link--mail {
 margin-right: 0;
 }
+
+/* le responsive du footer */
 
 @media all and (max-width: 800px) {
   footer {

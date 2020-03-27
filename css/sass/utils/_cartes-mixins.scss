@@ -1,0 +1,52 @@
+@mixin cartes {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10% 20% 10%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2rem;
+      }
+
+@mixin left {
+    margin-left: $margin-box-menu;
+}
+
+@mixin right {
+    margin-right: $margin-box-menu;
+}
+@mixin one {
+    background-color: $color-menu-1;
+    font-family: $fonts-menu-1;
+}
+@mixin two {
+    background-color: $color-menu-2;
+    font-family: $fonts-menu-2; 
+}
+@mixin three {
+    background-color: $color-menu-3;
+    font-family: $fonts-menu-3;
+}
+@mixin four {
+    background-color: $color-menu-4; 
+    font-family: $fonts-menu-4;
+}
+
+/* couleur degrade h2-menu des cartes */
+
+@mixin menu2 {
+    background: linear-gradient(to right, $color-fonts-menu-2, $color-fonts-menu-2-2, $color-fonts-menu-2-3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@mixin menu3 {
+    background: linear-gradient(to right, $color-fonts-menu-3-2, $color-fonts-menu-3-3, $color-fonts-menu-3-4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@mixin menu4 {
+    background: linear-gradient(to right, $color-fonts-menu-4-2, $color-fonts-menu-4-3, $color-fonts-menu-4-4, $color-fonts-menu-4-5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

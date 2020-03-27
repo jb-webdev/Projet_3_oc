@@ -1,3 +1,5 @@
+/* pages cartes-menu*/
+
 .carte {
     display: flex;
     flex-direction: column;
@@ -33,6 +35,8 @@
             @include four;
         }
 }
+/* couleur degrade h2-menu des cartes */
+
 .carte__enseigne--menu2 {
     @include menu2;
 }
@@ -42,13 +46,20 @@
 .carte__enseigne--menu4 {
     @include menu4;
 }
+
+/* les notes de musique  */
+
 .note-music {
     display: inline-block;
     text-align: center;
 }
+
 .fa-music--carte {
     font-size: 4em;
 } 
+
+/* note de musique du bas de page menu carte */
+
 .carte-bottom {
     display: flex;
     margin-left: auto;
@@ -62,64 +73,28 @@
             font-size: 1.4em;
         }
 }
+/* div des plats et des prix */
+
 .carte__plats {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-$duration: 650ms;
-
-.baseline {
-    &__menu-1 {
-        background: linear-gradient(to top, $color-fonts-menu-1 0%, $color-fonts-menu-1 2px, transparent 3px) no-repeat;
-        background-size: 0% 100%;
-        transition: background-size $duration;
-
-        &:hover {
-            background-size: 100% 100%;
-        }
+.carte__article {
+    &--1 {
+        color: $color-fonts-menu-2;
     }
-    
-
-    &__menu-3 {
-        background: linear-gradient(to top, $color-fonts-menu-3 0%, $color-fonts-menu-3 2px, transparent 3px) no-repeat;
-        background-size: 0% 100%;
-        transition: background-size $duration;
-
-        &:hover {
-            background-size: 100% 100%;
-        }
+    &--2 {
+        color: $color-fonts-menu-2-2;
     }
-
-    &__menu-4 {
-        background: linear-gradient(to top, $color-fonts-menu-4 0%, $color-fonts-menu-4 2px, transparent 3px) no-repeat;
-        background-size: 0% 100%;
-        transition: background-size $duration;
-
-        &:hover {
-            background-size: 100% 100%;
-        }
+    &--3 {
+        color: $color-fonts-menu-2-3; 
     }
 }
-.carte__article--1 {
-    color: $color-fonts-menu-2;
-}
-.baseline__menu-2 {
-    background: linear-gradient(to top, $color-fonts-menu-2 0%, $color-fonts-menu-2 2px, transparent 3px) no-repeat;
-    background-size: 0% 100%;
-    transition: background-size $duration;
 
-    &:hover {
-        background-size: 100% 100%;
-    }
-}
-.carte__article--2 {
-    color: $color-fonts-menu-2-2;
-}
-.carte__article--3 {
-    color: $color-fonts-menu-2-3; 
-}
+/* Responsive pages cartes-menu */
+
 @media all and (max-width: 750px) {
     .carte__plats {
         flex-direction: column;

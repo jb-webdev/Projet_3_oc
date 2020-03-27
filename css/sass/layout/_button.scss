@@ -1,3 +1,5 @@
+/* button prochainement */
+
 .btn {
   margin-bottom: 6em;
 }
@@ -21,53 +23,10 @@
   border-radius: 10px;
 
 }
+/* le responsive du button */
+
 @media all and (max-width: 630px) {
   .btn-prochainement {
     width: 60%;
   }
-}
-/*---------------------------------
-          ANIMATION BALL
----------------------------------*/
-.ball__une {
-  background-color: $secondary;
-  width: 0.3em;
-  height: 0.3em;
-  border-radius: 0.5em;
-  display: inline-block;
-  align-self: flex-end;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  
-          animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) infinite;
-  -webkit-animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) infinite;
-
-}
-.ball__deux {
-  background-color: $secondary;
-  width: 0.3em;
-  height: 0.3em;
-  border-radius: 0.5em;
-  display: inline-block;
-  align-self: flex-end;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  
-          animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .33s infinite;
-  -webkit-animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .33s infinite;
-
-}
-.ball__trois {
-  background-color: $secondary;
-  width: 0.3em;
-  height: 0.3em;
-  border-radius: 0.5em;
-  display: inline-block;
-  align-self: flex-end;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  
-          animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .66s infinite;
-  -webkit-animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .66s infinite;
-
 }

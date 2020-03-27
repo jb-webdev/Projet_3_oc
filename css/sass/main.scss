@@ -1,13 +1,15 @@
 @import "./utils/variables-colors";
 @import "./utils/fonts";
-@import "./utils/mixins-carte";
+@import "./utils/cartes-mixins";
 @import "./utils/keyframes";
 @import "./layout/body";
 @import "./layout/header";
 @import "./box-menu/box-mixins";
 @import "./box-menu/box-menu";
 @import "./layout/button";
+@import "./utils/button-animation";
 @import "./layout/cartes";
+@import "./utils/cartes-baseline";
 @import "./layout/cgu";
 @import "./layout/footer";
 

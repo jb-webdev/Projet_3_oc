@@ -1,0 +1,66 @@
+/* animation baseline cartes */
+
+$duration: 650ms;
+
+.baseline {
+    &__menu-1 {
+        background: linear-gradient(to top, $color-fonts-menu-1 0%, $color-fonts-menu-1 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+    
+
+    &__menu-3 {
+        background: linear-gradient(to top, $color-fonts-menu-3 0%, $color-fonts-menu-3 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__menu-4 {
+        background: linear-gradient(to top, $color-fonts-menu-4 0%, $color-fonts-menu-4 2px, transparent 3px) no-repeat;
+        background-size: 0% 100%;
+        transition: background-size $duration;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+/* baseline du menu 2 */
+
+.baseline__menu-2--colors-1 {
+    background: linear-gradient(to top, $color-fonts-menu-2 0%, $color-fonts-menu-2 2px, transparent 3px) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size $duration;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+.baseline__menu-2--colors-2 {
+    background: linear-gradient(to top, $color-fonts-menu-2-2 0%, $color-fonts-menu-2-2 2px, transparent 3px) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size $duration;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+.baseline__menu-2--colors-3 {
+    background: linear-gradient(to top, $color-fonts-menu-2-3 0%, $color-fonts-menu-2-3 2px, transparent 3px) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size $duration;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}

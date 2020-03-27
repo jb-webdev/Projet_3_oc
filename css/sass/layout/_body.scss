@@ -1,3 +1,5 @@
+/* BODY */
+
 body {
     width: 800px;
     height: 100%;
@@ -8,6 +10,9 @@ body {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  /* le responsive du body */
+
   @media all and (max-width: 800px) {
     body {
       width: 100%;
