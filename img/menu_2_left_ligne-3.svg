@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="300.000000pt"
+   height="52.000000pt"
+   viewBox="0 0 300.000000 52.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg28"
+   sodipodi:docname="menu_2_right_ligne-3.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview30"
+     showgrid="false"
+     inkscape:zoom="3.2975"
+     inkscape:cx="200"
+     inkscape:cy="34.666667"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <metadata
+     id="metadata22">
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="matrix(-0.05,0,0,0.05,298.60486,-1.1036049)"
+     id="g26"
+     style="fill:#6a56a3;stroke:none">
+    <path
+       d="m 744,631 c -92,-31 -405,-71 -553,-71 -50,0 -91,-9 -91,-20 0,-11 40,-20 89,-20 145,0 540,-57 617,-90 63,-26 127,-26 548,-1 262,16 913,38 1446,50 534,11 1168,25 1410,31 242,5 717,9 1056,10 339,0 612,8 606,17 -6,9 -638,23 -1406,31 -1608,16 -2034,25 -2616,53 -822,38 -1014,40 -1106,10 z"
+       id="path24"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

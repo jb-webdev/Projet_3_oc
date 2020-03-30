@@ -21,6 +21,8 @@
         }
         &__h3 {
             text-align: center;
+            margin-right: 1em;
+            margin-left: 1em;
         }
         &__one {
             @include one;
@@ -34,6 +36,13 @@
         &__four {
             @include four;
         }
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+    & img {
+        width: 150px;
+    }
 }
 /* couleur degrade h2-menu des cartes */
 
@@ -54,9 +63,9 @@
     text-align: center;
 }
 
-.fa-music--carte {
-    font-size: 4em;
-} 
+.note-2 {
+    height: 4em;
+  }
 
 /* note de musique du bas de page menu carte */
 
@@ -64,8 +73,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-        & .fa-music--bottom{
-            font-size: 0.9em;
+        & .note-3 {
+            height: 0.8em;
             margin-right: 0.5em;
         }
         & .h2__bottom {

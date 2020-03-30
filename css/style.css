@@ -132,9 +132,12 @@ header {
   margin-right: 7.5%;
 }
 
-.fas {
+/*.fas {
   font-size: 2em;
-  color: #f15f62;
+  color: $color-note-musique;
+}*/
+.note-1 {
+  height: 2.8em;
 }
 
 .box-menu {
@@ -298,6 +301,8 @@ header {
 }
 .carte__h3 {
   text-align: center;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 .carte__one {
   background-color: #fcdfdb;
@@ -314,6 +319,14 @@ header {
 .carte__four {
   background-color: #eef8ee;
   font-family: "Oswald", sans-serif;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+.image img {
+  width: 150px;
 }
 
 /* couleur degrade h2-menu des cartes */
@@ -341,8 +354,8 @@ header {
   text-align: center;
 }
 
-.fa-music--carte {
-  font-size: 4em;
+.note-2 {
+  height: 4em;
 }
 
 /* note de musique du bas de page menu carte */
@@ -351,8 +364,8 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.carte-bottom .fa-music--bottom {
-  font-size: 0.9em;
+.carte-bottom .note-3 {
+  height: 0.8em;
   margin-right: 0.5em;
 }
 .carte-bottom .h2__bottom {
