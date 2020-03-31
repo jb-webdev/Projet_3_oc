@@ -395,8 +395,11 @@ header {
 
 /* Responsive pages cartes-menu */
 @media all and (max-width: 830px) {
+  .image {
+    justify-content: center;
+  }
   .image img {
-    width: 100px;
+    display: none;
   }
 }
 @media all and (max-width: 750px) {
@@ -411,14 +414,6 @@ header {
 
   .carte__enseigne {
     font-size: 1.5em;
-  }
-}
-@media all and (max-width: 630px) {
-  .image {
-    justify-content: center;
-  }
-  .image img {
-    display: none;
   }
 }
 /* animation baseline cartes */
