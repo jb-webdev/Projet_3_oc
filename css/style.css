@@ -361,6 +361,7 @@ header {
 /* note de musique du bas de page menu carte */
 .carte-bottom {
   display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -369,8 +370,10 @@ header {
   margin-right: 0.5em;
 }
 .carte-bottom .h2__bottom {
+  text-justify: auto;
   display: inline-block;
   font-size: 1.4em;
+  white-space: nowrap;
 }
 
 /* div des plats et des prix */
@@ -403,6 +406,13 @@ header {
 
   .carte__enseigne {
     font-size: 1.5em;
+  }
+
+  .image {
+    justify-content: center;
+  }
+  .image img {
+    display: none;
   }
 }
 /* animation baseline cartes */

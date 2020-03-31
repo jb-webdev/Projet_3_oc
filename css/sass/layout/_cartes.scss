@@ -71,6 +71,7 @@
 
 .carte-bottom {
     display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
         & .note-3 {
@@ -78,8 +79,10 @@
             margin-right: 0.5em;
         }
         & .h2__bottom {
+            text-justify: auto;
             display: inline-block;
             font-size: 1.4em;
+            white-space: nowrap;
         }
 }
 /* div des plats et des prix */
@@ -116,4 +119,11 @@
     .carte__enseigne {
         font-size: 1.5em;
     }
+    .image{
+        & img {
+            display: none;
+        }
+        justify-content: center;
+    }
+    
   }
