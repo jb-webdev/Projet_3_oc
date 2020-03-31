@@ -394,6 +394,11 @@ header {
 }
 
 /* Responsive pages cartes-menu */
+@media all and (max-width: 830px) {
+  .image img {
+    width: 100px;
+  }
+}
 @media all and (max-width: 750px) {
   .carte__plats {
     flex-direction: column;
@@ -407,7 +412,8 @@ header {
   .carte__enseigne {
     font-size: 1.5em;
   }
-
+}
+@media all and (max-width: 630px) {
   .image {
     justify-content: center;
   }
