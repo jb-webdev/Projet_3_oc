@@ -280,6 +280,10 @@ header {
 }
 
 /* pages cartes-menu*/
+.pages {
+  text-align: center;
+}
+
 .carte {
   display: flex;
   flex-direction: column;
