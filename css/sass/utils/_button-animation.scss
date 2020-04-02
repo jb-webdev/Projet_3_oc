@@ -1,45 +1,33 @@
 /*---------------------------------
           ANIMATION BALL
 ---------------------------------*/
+@mixin ball-prochainement {
+        background-color: $secondary;
+        width: 0.3em;
+        height: 0.3em;
+        border-radius: 0.5em;
+        display: inline-block;
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-left: 5px;
+}
+
+
 .ball__une {
-    background-color: $secondary;
-    width: 0.3em;
-    height: 0.3em;
-    border-radius: 0.5em;
-    display: inline-block;
-    align-self: flex-end;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    
+    @include ball-prochainement; 
             animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) infinite;
     -webkit-animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) infinite;
   
   }
+
   .ball__deux {
-    background-color: $secondary;
-    width: 0.3em;
-    height: 0.3em;
-    border-radius: 0.5em;
-    display: inline-block;
-    align-self: flex-end;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    
+        @include ball-prochainement;
             animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .33s infinite;
     -webkit-animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .33s infinite;
-  
   }
+
   .ball__trois {
-    background-color: $secondary;
-    width: 0.3em;
-    height: 0.3em;
-    border-radius: 0.5em;
-    display: inline-block;
-    align-self: flex-end;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    
+        @include ball-prochainement;
             animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .66s infinite;
     -webkit-animation: rebond 1.8s cubic-bezier(.42,0,.71,.99) .66s infinite;
-  
   }
