@@ -263,7 +263,9 @@ header {
   margin-bottom: 5px;
   margin-left: 5px;
   animation: flash 3s linear infinite;
+  -webkit-animation: flash 3s linear infinite;
   animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
 
 .ball__deux {
@@ -276,7 +278,9 @@ header {
   margin-bottom: 5px;
   margin-left: 5px;
   animation: flash 3s linear infinite;
+  -webkit-animation: flash 3s linear infinite;
   animation-delay: 2.3s;
+  -webkit-animation-delay: 2.3s;
 }
 
 .ball__trois {
@@ -289,7 +293,9 @@ header {
   margin-bottom: 5px;
   margin-left: 5px;
   animation: flash 3s linear infinite;
+  -webkit-animation: flash 3s linear infinite;
   animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 /* pages cartes-menu*/
