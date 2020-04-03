@@ -28,6 +28,23 @@ linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
     transform: translatey(0px);
   }
 }
+@keyframes flash {
+  0% {
+    opacity: 100%;
+  }
+  25% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  90% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 /*----------------------------------------------
         Animation Liens Footer
 ----------------------------------------------*/
@@ -238,41 +255,41 @@ header {
 ---------------------------------*/
 .ball__une {
   background-color: #fdcb46;
-  width: 0.3em;
-  height: 0.3em;
+  width: 0.2em;
+  height: 0.2em;
   border-radius: 0.5em;
   display: inline-block;
   align-self: flex-end;
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) infinite;
-  -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) infinite;
+  animation: flash 3s linear infinite;
+  animation-delay: 2s;
 }
 
 .ball__deux {
   background-color: #fdcb46;
-  width: 0.3em;
-  height: 0.3em;
+  width: 0.2em;
+  height: 0.2em;
   border-radius: 0.5em;
   display: inline-block;
   align-self: flex-end;
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.33s infinite;
-  -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.33s infinite;
+  animation: flash 3s linear infinite;
+  animation-delay: 2.3s;
 }
 
 .ball__trois {
   background-color: #fdcb46;
-  width: 0.3em;
-  height: 0.3em;
+  width: 0.2em;
+  height: 0.2em;
   border-radius: 0.5em;
   display: inline-block;
   align-self: flex-end;
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.66s infinite;
-  -webkit-animation: rebond 1.8s cubic-bezier(0.42, 0, 0.71, 0.99) 0.66s infinite;
+  animation: flash 3s linear infinite;
+  animation-delay: 2.5s;
 }
 
 /* pages cartes-menu*/

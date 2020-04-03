@@ -20,6 +20,24 @@
     100%{transform: translatey(0px);}
   }
 
+@keyframes flash {
+        0% {
+          opacity: 100%;
+        }
+        25% {
+          opacity: 0%;
+        }
+        50% {
+          opacity: 0%;
+        }
+        90% {
+          opacity: 0%;
+        }
+        100% {
+          opacity: 100%;
+        }
+      }
+
 /*----------------------------------------------
         Animation Liens Footer
 ----------------------------------------------*/
