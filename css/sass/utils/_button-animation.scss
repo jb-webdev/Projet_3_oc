@@ -2,48 +2,38 @@
           ANIMATION BALL
 ---------------------------------*/
 @mixin ball-prochainement {
-        background-color: $secondary;
-        width: 0.2em;
-        height: 0.2em;
-        border-radius: 0.5em;
-        display: inline-block;
-        align-self: flex-end;
-        margin-bottom: 5px;
-        margin-left: 5px;
+    background-color: $secondary;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 0.5em;
+    display: inline-block;
 }
 
+.ball {
+    margin-left: 5px;
+    align-items: flex-end;
+  }
 
 .ball__une {
       @include ball-prochainement; 
-      animation: flash 3s linear infinite;
-      -webkit-animation: flash 3s linear infinite;
-      animation: flash 3s linear infinite;
-      animation-delay: 2s;
-      -webkit-animation-delay: 2s;
-      -o-animation-delay: 2s;
-
-  
+      animation: flash 4s ease-in infinite;
+      -webkit-animation: flash 4s ease-in infinite;
+      animation-delay: 2.1s;
+      -webkit-animation-delay: 2.1s;
   }
 
   .ball__deux {
       @include ball-prochainement;
-      animation: flash 3s linear infinite;
-      -webkit-animation: flash 3s linear infinite;
-      animation: flash 3s linear infinite;
+      animation: flash 4s ease-in infinite;
+      -webkit-animation: flash 4s ease-in infinite;
       animation-delay: 2.3s;
       -webkit-animation-delay: 2.3s;
-      -o-animation-delay: 2.3s;
-        
   }
 
   .ball__trois {
       @include ball-prochainement;
-      animation: flash 3s linear infinite;
-      -webkit-animation: flash 3s linear infinite;
-      animation: flash 3s linear infinite;
-      animation-delay: 2.5s;
-      -webkit-animation-delay: 2.5s;
-      -o-animation-delay: 2.5s;
-      
-
+      animation: flash 4s ease-in infinite;
+      -webkit-animation: flash 4s ease-in infinite;
+      animation-delay: 2.4s;
+      -webkit-animation-delay: 2.4s;
   }
