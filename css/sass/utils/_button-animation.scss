@@ -12,10 +12,11 @@
 .ball {
     margin-left: 5px;
     align-items: flex-end;
+    
   }
-
+  
 .ball__une {
-      @include ball-prochainement; 
+      @include ball-prochainement;
       animation: flash 4s ease-in infinite;
       -webkit-animation: flash 4s ease-in infinite;
       animation-delay: 2.1s;
@@ -37,3 +38,5 @@
       animation-delay: 2.4s;
       -webkit-animation-delay: 2.4s;
   }
+
+  

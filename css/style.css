@@ -30,30 +30,30 @@ linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
 }
 @keyframes flash {
   0% {
-    opacity: 0%;
+    opacity: 0;
   }
   35% {
-    opacity: 100%;
+    opacity: 1;
   }
   85% {
-    opacity: 100%;
+    opacity: 1;
   }
   100% {
-    opacity: 0%;
+    opacity: 0;
   }
 }
 @-webkit-keyframes flash {
   0% {
-    opacity: 0%;
+    opacity: 0;
   }
   35% {
-    opacity: 100%;
+    opacity: 1;
   }
   85% {
-    opacity: 100%;
+    opacity: 1;
   }
   100% {
-    opacity: 0%;
+    opacity: 0;
   }
 }
 /*----------------------------------------------
