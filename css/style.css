@@ -1,7 +1,5 @@
 /* color principal du site */
 /* color items du site */
-/* couleur note musique
-linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
 /* color shadow for box-menu */
 /* couleur degrade h2-menu des cartes */
 /*----------------------------------------------
@@ -20,14 +18,6 @@ linear-gradient(to right, #ee484b, #f15f62, #f59a76,#f6916a);*/
 /*----------------------------------------------
         animation bouton prochainement
 ----------------------------------------------*/
-@keyframes rebond {
-  0% {
-    transform: translatey(-7px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
 @keyframes flash {
   0% {
     opacity: 0;

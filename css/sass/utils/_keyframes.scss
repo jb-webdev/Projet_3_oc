@@ -14,11 +14,6 @@
 /*----------------------------------------------
         animation bouton prochainement
 ----------------------------------------------*/
-@keyframes rebond {
-    0% {transform: translatey(-7px);}
-    
-    100%{transform: translatey(0px);}
-  }
 
 @keyframes flash {
         0% {
@@ -70,4 +65,4 @@
           -webkit-transform: translate(2px, 0);
                   transform: translate(2px, 0); 
         } 
-        }
+      }

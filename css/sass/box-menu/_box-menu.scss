@@ -1,11 +1,8 @@
 /* box- menu */
-
-
 .box {
     display: flex;
     flex-wrap: wrap;
   }
-  
   .box-menu{
       &--one {
         @include box-menu;
@@ -33,7 +30,6 @@
  .note-1 {
     height: 2.8em;
   }
-  
   .box-menu {
     display: flex;
     flex-direction: column;
@@ -45,7 +41,6 @@
     -webkit-box-shadow: 0 0 10px 0 $color-shadow-box;
             box-shadow: 0 0 10px 0 $color-shadow-box;
   }
-  
   .box-menu:hover {
     animation: zoom .5s forwards;
   }
@@ -83,7 +78,6 @@
      margin-right: auto;
       }
  }
-
  @media all and (max-width: 650px) {
     .box-menu {
       margin-left: auto;
@@ -97,10 +91,4 @@
       height: 400px;
       max-width: 300px;
       }
-  }
-
-
-   
-
-  
-      
+  }    
